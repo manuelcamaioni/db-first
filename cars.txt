@@ -1,41 +1,41 @@
     
-    ID:                                     MEDIUMINT / AUTOINCREMENT / PRIMARY_KEY / UNSIGNED
+    id                                     mediumint   autoincrement   primary_key   unsigned
 
-    Immagine Auto:                          TEXT / NOTNULL
+    immagine_auto                          text   notnull
 
-    Prezzo:                                 MEDIUMINT / NOTNULL / UNSIGNED
+    prezzo                                 mediumint   notnull   unsigned
 
-    Marca:                                  VARCHAR(60) / NOTNULL
+    marca                                  varchar(60)   notnull
 
-    Modello:                                VARCHAR(60) / NOTNULL
+    modello                                varchar(60)   notnull
 
-    Anno di immatricolazione:               YEAR / NOTNULL
+    anno_di_immatricolazione               year   notnull
 
-    Locazione veicolo:                      VARCHAR(255) / DEFAULT(-) 
+    locazione_veicolo                      varchar(255)   default(-) 
 
-    Stato generale:                         VARCHAR(255) / NULL
+    stato_generale                         varchar(255)   null
 
-    Chilometraggio:                         MEIDUMINT / NOTNULL / UNSIGNED
+    chilometraggio                         meidumint   notnull   unsigned
 
-    Tipo di cambio:                         VARCHAR(20) / NOTNULL
+    tipo_di_cambio                         varchar(20)   notnull
 
-    Potenza:                                VARCHAR(30) / NOTNULL
+    potenza                                varchar(30)   notnull
 
-    Carburante:                             VARCHAR(15) / NOTNULL
+    carburante                             varchar(15)   notnull
 
-    Cilindrata:                             SMALLINT / NOTNULL / UNSIGNED
+    cilindrata                             smallint   notnull   unsigned
 
-    Posti:                                  TINYINT / NOTNULL / UNSIGNED
+    posti                                  tinyint   notnull   unsigned
 
-    Porte:                                  TINYINT / NULL / UNSIGNED
+    porte                                  tinyint   null   unsigned
 
-    Proprietari precedenti:                 TEXT / NULL
+    proprietari_precedenti                 text   null
 
-    Storia degli incidenti:                 TEXT / NULL
+    storia_degli_incidenti                 text   null
 
-    Stato dei pneumatici:                   VARCHAR(255) / NULL
+    stato_dei_pneumatici                   varchar(255)   null
 
-    Dotazioni e accessori:                  TEXT / DEFAULT
+    accessori                              text   default
 
     
  
