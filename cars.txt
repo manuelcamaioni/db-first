@@ -1,5 +1,5 @@
     
-    ID:                                     MEDIUMINT / AUTOINCREMENT / UNIQUE
+    ID:                                     MEDIUMINT / AUTOINCREMENT / PRIMARY_KEY / UNSIGNED
 
     Immagine Auto:                          TEXT / NOTNULL
 
