@@ -15,7 +15,7 @@
 
     stato_generale                         varchar(255)   null
 
-    chilometraggio                         meidumint   notnull   unsigned
+    chilometraggio                         mediumint   notnull   unsigned
 
     tipo_di_cambio                         varchar(20)   notnull
 
