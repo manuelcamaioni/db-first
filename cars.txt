@@ -1,0 +1,43 @@
+    
+    ID:                                     MEDIUMINT / AUTOINCREMENT / UNIQUE
+
+    Immagine Auto:                          TEXT / NOTNULL
+
+    Prezzo:                                 MEDIUMINT / NOTNULL / UNSIGNED
+
+    Marca:                                  VARCHAR(60) / NOTNULL
+
+    Modello:                                VARCHAR(60) / NOTNULL
+
+    Anno di immatricolazione:               YEAR / NOTNULL
+
+    Locazione veicolo:                      VARCHAR(255) / DEFAULT(-) 
+
+    Stato generale:                         VARCHAR(255) / NULL
+
+    Chilometraggio:                         MEIDUMINT / NOTNULL / UNSIGNED
+
+    Tipo di cambio:                         VARCHAR(20) / NOTNULL
+
+    Potenza:                                VARCHAR(30) / NOTNULL
+
+    Carburante:                             VARCHAR(15) / NOTNULL
+
+    Cilindrata:                             SMALLINT / NOTNULL / UNSIGNED
+
+    Posti:                                  TINYINT / NOTNULL / UNSIGNED
+
+    Porte:                                  TINYINT / NULL / UNSIGNED
+
+    Proprietari precedenti:                 TEXT / NULL
+
+    Storia degli incidenti:                 TEXT / NULL
+
+    Stato dei pneumatici:                   VARCHAR(255) / NULL
+
+    Dotazioni e accessori:                  TEXT / DEFAULT
+
+    
+ 
+
+    
